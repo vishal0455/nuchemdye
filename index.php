@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Nuchem Dye</title>
+    <title>Home - Nuchem Dye - Tirth</title>
     <!-- meta tag -->
     <meta name="description" content="Welcome to Nuchem Dye" />
     <meta property="og:locale" content="en_in" />
