@@ -1,0 +1,225 @@
+@media (max-width: 767px) {
+
+    .top-header .main-logo{width: 160px;}
+    .navbar-light .navbar-toggler{border-color: transparent;}
+    .top-header{z-index: 9; padding: 0;}
+    .top-header ul.navbar-nav.ms-auto.mb-2.mb-lg-0{background: #fff; z-index: 999; position: relative; padding: 15px 0; margin-top: 10px;}
+    .top-header .dropdown-menu{border: 0; padding: 0;}
+    .top-header .dropdown-item{font-size: 14px; padding: 3px 15px;}
+
+    /* .main-banner{background: url(../images/home-page/mobile-banner.jpg) no-repeat top; background-size: cover;} */
+    .main-banner {
+        background: url(../images/home-page/mobile-banner.jpg) no-repeat top;
+        background-size: cover;
+        height: 100vh; /* Ensures the banner takes full viewport height without causing scrolling */
+        display: flex; /* Use flexbox to center the content */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden; /* Prevent extra scrolling due to content overflow */
+    }
+    .main-banner h1{font-size: 30px;}
+    .main-banner .contact-button{font-size: 15px; padding: 8px 20px; margin-left: 15px;}
+
+    .product-detail-banner{padding: 80px 0 0; height: auto;}
+    .product-detail-banner p{font-size: 15px; line-height: 22px; padding: 20px 0;}
+    .product-detail-banner .cellulosic-img{width: 100%;}
+    .product-detail-banner .text-box h2{width: auto;}
+    .col-sm-6.pl{display: block !important;}
+
+    .about-banner{height: auto; padding: 80px 0 60px;}
+    .about-banner h2{font-size: 30px;}
+    .about-banner p{padding: 15px 0;}
+    .about-banner .col-sm-4{padding-bottom: 25px;}
+    .about-banner h4{font-size: 18px; padding: 15px 0 0;}
+
+    .management-section{height: auto; padding: 80px 0 50px;}
+    .management-section .management-box{height: auto;}
+    .management-section h3{font-size: 25px; padding-bottom: 30px;}
+    .management-section h2{font-size: 35px; line-height: 37px;}
+    .management-section p{font-size: 16px; padding-top: 10px; padding-bottom: 40px;}
+    .management-section p:after{bottom: 30px;}
+    .swiper-button-next, .swiper-button-prev{top: var(--swiper-navigation-top-offset, 99%) !important;}
+    .swiper-button-prev{left: 100px !important;}
+    .swiper-button-next{right: 100px !important;}
+
+    .cotfixblacks-section .blacks-rght{}
+
+    .qualitycontrol-section, .manufacturig-section{height: auto; display: inherit; padding: 60px 0;}
+    .qualitycontrol-section p{padding-top: 10px;}
+ 
+    .manufacturig-section .manu-img{height: auto;}
+
+}
+
+@media (min-width: 400px) and (max-width: 768px) {
+    .swiper-button-next, .swiper-button-prev{top: var(--swiper-navigation-top-offset, 99%) !important;}
+    .swiper-button-prev{left: 150px !important;}
+    .swiper-button-next{right: 150px !important;}
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+
+    .top-header .main-logo{width: 160px;}
+    .navbar-light .navbar-toggler{border-color: transparent;}
+    .top-header{z-index: 9; padding: 0;}
+    .top-header ul.navbar-nav.ms-auto.mb-2.mb-lg-0{background: #fff; z-index: 999; position: relative; padding: 15px 0; margin-top: 10px;}
+    .top-header .dropdown-menu{border: 0; padding: 0;}
+    .top-header .dropdown-item{font-size: 14px; padding: 3px 15px;}
+
+    .swiper-button-next{right: 10px !important;}
+    .swiper-button-prev{left: 10px !important;}
+    .management-section p{padding-bottom: 50px;}
+    .management-section p:after{bottom: 30px;}
+
+    .qualitycontrol-section, .manufacturig-section{height: auto; display: inherit; padding: 60px 0;}
+    .qualitycontrol-section p{padding-top: 10px;}
+
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+
+    .swiper-button-next{right: 0 !important;}
+    .swiper-button-prev{left: 0 !important;}
+
+}
+
+@media (min-width: 1025px) and (max-width: 1300px) {
+
+    .swiper-button-next{right: 30px !important;}
+    .swiper-button-prev{left: 30px !important;}
+
+}
+
+@media (min-width: 1700px) {
+
+    .main-banner h1{font-size: 85px;}
+
+    .product-detail-banner .text-box h2{font-size: 26px; width: 100%;}
+    .product-detail-banner p{font-size: 26px; line-height: 40px; padding-bottom: 50px;}
+    .product-detail-banner .cellulosic-img{width: 100%;}
+    .product-detail-banner a{font-size: 18px;}
+
+    .product-detail-banner .pr{}   
+    
+    
+    .about-banner h2{font-family: "Hanken Grotesk", serif; font-size: 45px; font-weight: 700; color: #000; letter-spacing: 2px;}
+    .about-banner p{font-family: "Hanken Grotesk", serif; font-size: 18px; font-weight: 400; color: #000; padding: 10px 0 30px;}
+    .about-banner h3{font-family: "Hanken Grotesk", serif; font-size: 18px; font-weight: 500; color: #000; padding-top: 15px;}
+    .about-banner .about-img-box{height: auto; width: 100%; overflow: hidden;}
+    .about-banner h4{font-family: "Hanken Grotesk", serif; font-size: 22px; font-weight: 700; color: #000; padding: 40px 0 0; text-align: center;}
+
+    .management-section h3{font-size: 35px;}
+    .management-section h2{font-size: 80px; line-height: 82px;}
+    .management-section p{font-size: 22px;}
+    .swiper-button-prev{left: 200px !important;}
+    .swiper-button-next{right: 200px !important;}
+    .management-section .management-box{height: auto;}
+
+    /* manufacturing page */
+
+    .manufacturig-section{display: flex; align-items: center; height: 100vh;}
+    .manufacturig-section ul{padding-bottom: 20px;}
+    .manufacturig-section ul li{font-family: "Hanken Grotesk", serif; font-size: 20px; font-weight: 600; color: #000; text-align: center; }
+    .manufacturig-section h3{font-family: "Hanken Grotesk", serif; font-size: 25px; font-weight: 400; color: #000; letter-spacing: 2px; text-align: center;}
+    .manufacturig-section h2{font-family: "Hanken Grotesk", serif; font-size: 25px; font-weight: 400; color: #000; letter-spacing: 2px; text-align: center; padding-bottom: 20px;}
+    .manufacturig-section .manu-img{width: 100%; height: auto; overflow: hidden; margin-bottom: 10px;}
+    .manufacturig-section img{margin-top: -50px;}
+    .manufacturig-section .manu-content{display: flex; align-items: center;}
+
+    /* manufacturing page */
+
+    .cotfixblacks-section{height: 100vh;}
+    .cotfixblacks-section .cotfixblacks-img{position: absolute; top: 0; left: 0; }
+    .cotfixblacks-section .first-box{height: 50%; display: flex; align-items: center; overflow: hidden; background: url(../images/cotfixblacks-page/cotfixblacks.jpg) no-repeat top;}
+    .cotfixblacks-section .first-box h2{position: relative; z-index: 1; font-family: "Hanken Grotesk", serif; font-size: 28px; font-weight: 500; color: #000; letter-spacing: 2px; text-align: center; display: inline-block; background-color: rgba(255, 255, 255, 0.7); padding: 5px 30px;}
+    .cotfixblacks-section .first-box h3{position: relative; z-index: 1; font-family: "Hanken Grotesk", serif; font-size: 55px; font-weight: 500; color: #000; letter-spacing: 2px; text-align: center; display: inline-block; margin-left: auto; background-color: rgba(255, 255, 255, 0.7); padding: 20px 35px;}
+    .cotfixblacks-section .blacks-rght{display: flex; justify-content: right;}
+    /* .cotfixblacks-section .popup-btn{font-family: "Hanken Grotesk", serif; font-size: 28px; font-weight: 600; color: #000; letter-spacing: 2px; text-align: center; border:1px solid #000;} */
+    .cotfixblacks-section .second-box{margin-top: 0;}
+    .box {
+        display: flex;
+        align-items: center;
+        border: 1px solid #333;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+
+    .black-box {
+        width: 20%;
+        /* height: 50px; */
+        padding: 57px 0;
+        background: #222;
+    }
+
+    .text-box {
+        padding: 15px;
+        width: 80%;
+    }
+
+    .title {
+        font-family: "Hanken Grotesk", serif;
+        font-size: 28px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    .subtitle {
+        font-size: 28px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+
+    .qualitycontrol-section{display: flex; align-items: center; height: 100vh;}
+    .qualitycontrol-section .col-lg-6{display: flex; align-items: center;}
+    .qualitycontrol-section .quality-box{position: relative; overflow: hidden; margin: 60px 0;}
+    .qualitycontrol-section .qc-content-box{background: rgba(255, 255, 255, 0.8); padding: 15px; position: absolute; bottom: 0; font-family: "Hanken Grotesk", serif; font-size: 16px; font-weight: 700; color: #000; letter-spacing: 2px; text-align: center;}
+    .qualitycontrol-section p{font-family: "Hanken Grotesk", serif; font-size: 25px; font-weight: 400; color: #000; padding-bottom: 30px; }
+    .qualitycontrol-section h2{font-family: "Hanken Grotesk", serif; font-size: 25px; font-weight: 700; color: #000;}
+    .qualitycontrol-section ul{padding-left: 25px; padding-bottom: 20px;}
+    .qualitycontrol-section ul li{list-style: disc; font-family: "Hanken Grotesk", serif; font-size: 18px; font-weight: 500; color: #000; line-height: 35px;}
+
+    .sustainabilty-section{display: flex; align-items: center; height: 100vh; padding-top: 30px;}
+    .sustainabilty-section h2{position: absolute; left: 0; bottom: 0; margin: 3px; border-radius: 0 0 10px 10px; background: #fff; padding: 10px; font-size: 25px; font-weight: 700; color: #000; line-height: 35px; text-align: center; width: 99%;}
+    .sustainabilty-section .col-lg-6{display: flex; align-items: center;}
+    .sustainabilty-section .sustainabilty-content{padding: 20px; border-radius: 10px; }
+    .sustainabilty-section p{font-family: "Hanken Grotesk", serif; font-size: 25px; font-weight: 400; color: #000; text-align: left;}
+    .sustainabilty-section ul{padding: 15px 0; margin: 15px 0; padding-left: 25px;}
+    .sustainabilty-section ul li{list-style: disc; font-family: "Hanken Grotesk", serif; font-size: 20px; font-weight: 500; color: #000; line-height: 35px;}
+    .sustainabilty-section .img-box{height: auto; overflow: hidden;}
+}
+
+@media (min-width: 769px) {
+    .top-header .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .top-header .dropdown-menu {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0.3s, opacity 0.3s ease-in-out;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .top-header .dropdown-menu {
+        display: none;
+    }
+
+    .top-header .nav-item.dropdown.show .dropdown-menu {
+        display: block;
+    }
+}
+
+/* @media (min-width: 1700px) and (max-width: 1920px) {
+
+    .main-banner h1{font-size: 85px;}
+
+} */

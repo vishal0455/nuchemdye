@@ -1,0 +1,359 @@
+
+/* fontfamily-style */
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* fontfamily-style */
+
+body{margin: 0; padding: 0; background: url(../images/home-page/Main-Banner.jpg) no-repeat center; background-size: cover; height: 100vh;}
+h1, h2, h3, h4, h5, h6, p{margin: 0; padding: 0;}
+a{text-decoration: none;}
+ul{padding: 0; margin: 0;}
+li{list-style: none;}
+
+/* home-page css */
+
+.top-header{padding: 10px 0; position: absolute; width: 100%; z-index: 9;}
+.top-header .main-logo{width: 200px;}
+.top-header .navbar-light .navbar-nav .nav-link{font-family: "Hanken Grotesk", serif; color: #000 !important; font-size: 17px; font-weight: 400; text-transform: uppercase; padding-left: 15px; padding-right: 15px; letter-spacing: 0.2px;}
+.top-header .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{color: #f37f21 !important;}
+.top-header .dropdown-menu[data-bs-popper]{left: 15px; background: #fff;}
+.top-header .dropdown-item{color: #000; font-weight: 400; text-transform: uppercase; font-size: 15px; padding: 5px 15px 5px 15px;}
+.top-header .dropdown-item:hover{background: transparent; color: #f37f21;}
+.top-header .dropdown-menu{padding: 15px 0; border: 1px solid #ccc;}
+
+.main-banner{}
+.main-banner h1{font-size: 65px; font-weight: 500; color: #000;  font-family: "Hanken Grotesk", serif;}
+.main-banner .content-box{display: flex; align-items: center; height: 100vh;}
+.main-banner .btn-icon-box{display: flex; align-items: center; gap: 15px; position: fixed; bottom: 40px; z-index: 99999; animation: slideUp 0.7s ease-out;}
+@keyframes slideUp {
+    0% {
+        bottom: -100px;
+    }
+    100% {
+        bottom: 40px;
+    }
+}
+
+@keyframes heartBreath {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+    }
+    50% {
+        transform: scale(1.2);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
+.main-banner .icon {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid #000;
+    transition: all 0.5s ease-in-out;
+    animation: heartBreath 2s infinite;
+}
+
+.main-banner .icon:hover{background: transparent; border: 1px solid #000; transition: all 0.5s ease-in-out;}
+.main-banner .icon:hover img{ filter: grayscale(100%) brightness(0); transition: all 0.5s ease-in-out;}
+
+.main-banner .icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.main-banner .contact-button {
+    padding: 10px 30px;
+    border: 1px solid black;
+    /* background-color: #f5f5f5; */
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-family: "Hanken Grotesk", serif;
+    letter-spacing: 1.2px;
+    margin-left: 25px;
+    transition: all 0.5s ease-in-out;
+}
+
+.main-banner .contact-button:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+/* home-page css */
+
+/* products-detail-page css */
+
+.product-detail-banner{display: flex; align-items: center; height: 100vh;}
+/* .product-detail-banner .pr{padding-right: 30px;}
+.product-detail-banner .pl{padding-left: 30px;} */
+.product-detail-banner .text-box h2{font-family: "Hanken Grotesk", serif; font-size: 15px; font-weight: 500; color: #000; letter-spacing: 2px; text-align: center; border: 1px solid #000; padding: 15px 0; width: 350px; margin: 0 auto;}
+.product-detail-banner p{font-family: "Hanken Grotesk", serif; font-size: 18px; font-weight: 400; color: #000; padding-bottom: 30px; line-height: 30px;}
+.product-detail-banner a{font-family: "Hanken Grotesk", serif; font-size: 16px; font-weight: 500; color: #000; padding: 10px 0; display: block; width: 100%; text-align: center; box-shadow: 0px 14px 140px 0px #94A3B833; background: #fff; margin-bottom: 25px; border: 1px solid #ccc; transition: all 0.5s ease-in-out;}
+.product-detail-banner a:hover{background: #000; color: #fff; transition: all 0.5s ease-in-out;}
+.product-detail-banner .cellulosic-img{width: 350px;  margin: 25px auto 0; display: block;}
+
+.product-detail-banner ul{padding: 0 0 35px 30px;}
+.product-detail-banner ul li{list-style: disc;}
+.product-detail-banner p, ul{font-size: 21px;}
+
+/* products-detail-page css */
+
+/* about page css */
+
+.about-banner{display: flex; align-items: center; height: 100vh;}
+.about-banner h2{font-family: "Hanken Grotesk", serif; font-size: 35px; font-weight: 700; color: #000; letter-spacing: 2px;}
+.about-banner p{font-family: "Hanken Grotesk", serif; font-size: 16px; font-weight: 400; color: #000; padding: 10px 0;}
+.about-banner h3{font-family: "Hanken Grotesk", serif; font-size: 16px; font-weight: 500; color: #000; padding-top: 15px;}
+.about-banner .about-img-box{height: 220px; width: 100%; overflow: hidden; position: relative;}
+.about-banner h4{font-family: "Hanken Grotesk", serif; font-size: 20px; font-weight: 500; color: #000; padding: 30px 0 0; text-align: center;}
+.about-banner .about-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container proportionally */
+    transition: transform 0.8s ease; /* Smooth transition effect */
+}
+
+.about-banner .about-img-box:hover img {
+    transform: scale(1.2); /* Zoom effect on hover */
+}
+
+/* about page css */
+
+/* management-section page */
+
+.management-section{display: flex; align-items: center; height: 100vh;}
+.management-section h3{font-family: "Hanken Grotesk", serif; font-size: 35px; font-weight: 500; color: #000; letter-spacing: 2px; padding-bottom: 15px;}
+.management-section h2{font-family: "Hanken Grotesk", serif; font-size: 65px; line-height: 67px; font-weight: 500; color: #000; letter-spacing: 2px;}
+.management-section p{font-family: "Hanken Grotesk", serif; font-size: 20px; font-weight: 400; color: #000; padding-top: 30px; position: relative;}
+.management-section p:after{content: ''; position: absolute; left: 0; bottom: -40px; width: 250px; height: 2px; background: #000; animation: lineAnimation 6s infinite ease-in-out;}
+
+@keyframes lineAnimation {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 200px;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+.management-section .col-lg-6{display: flex; align-items: center;}
+.management-section .management-box{border-radius: 10px; width: 100%; height: 450px; overflow: hidden;}
+
+
+.management-section {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+.management-section h2 {
+    font-family: "Hanken Grotesk", serif;
+    font-size: 65px;
+    line-height: 67px;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: 2px;
+}
+.management-section p {
+    font-family: "Hanken Grotesk", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    padding-top: 30px;
+    position: relative;
+}
+.management-section .col-sm-6 {
+    display: flex;
+    align-items: center;
+}
+.management-section .management-box {
+    border-radius: 10px;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    color: #000;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after{display: none;}
+.swiper-button-prev{left: 60px !important; background: url(../images/management-page/left.svg) no-repeat; width: 40px !important; height: 40px !important;}
+.swiper-button-next{right: 60px !important; background: url(../images/management-page/right.svg) no-repeat; width: 40px !important; height: 40px !important;}
+
+
+
+/* management-section page */
+
+/* manufacturing page */
+
+.manufacturig-section{display: flex; align-items: center; height: 100vh;}
+.manufacturig-section ul{padding-bottom: 15px;}
+.manufacturig-section ul li{font-family: "Hanken Grotesk", serif; font-size: 16px; font-weight: 600; color: #000; text-align: center; }
+.manufacturig-section h3{font-family: "Hanken Grotesk", serif; font-size: 18px; font-weight: 400; color: #000; letter-spacing: 2px; text-align: center;}
+.manufacturig-section h2{font-family: "Hanken Grotesk", serif; font-size: 18px; font-weight: 400; color: #000; letter-spacing: 2px; text-align: center; padding-bottom: 15px;}
+.manufacturig-section .manu-img{width: 100%; height: 150px; overflow: hidden; margin-bottom: 10px;}
+.manufacturig-section img{margin-top: -50px;}
+.manufacturig-section .manu-content{display: flex; align-items: center;}
+
+/* manufacturing page */
+
+/* cotfixblacks page */
+
+.cotfixblacks-section{height: 100vh;}
+.cotfixblacks-section .cotfixblacks-img{position: absolute; top: 0; left: 0; }
+.cotfixblacks-section .first-box{height: 50%; display: flex; align-items: center; overflow: hidden; background: url(../images/cotfixblacks-page/cotfixblacks.jpg) no-repeat top;}
+.cotfixblacks-section .first-box h2{position: relative; z-index: 1; font-family: "Hanken Grotesk", serif; font-size: 18px; font-weight: 500; color: #000; letter-spacing: 2px; text-align: center; display: inline-block; background-color: rgba(255, 255, 255, 0.7); padding: 5px 30px;}
+.cotfixblacks-section .first-box h3{position: relative; z-index: 1; font-family: "Hanken Grotesk", serif; font-size: 30px; font-weight: 500; color: #000; letter-spacing: 2px; text-align: center; display: inline-block; margin-left: auto; background-color: rgba(255, 255, 255, 0.7); padding: 20px 35px;}
+.cotfixblacks-section .blacks-rght{display: flex; justify-content: right;}
+/* .cotfixblacks-section .popup-btn{font-family: "Hanken Grotesk", serif; font-size: 28px; font-weight: 600; color: #000; letter-spacing: 2px; text-align: center; border:1px solid #000;} */
+.box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #333;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.cotfixblacks-section .second-box{margin-top: 30px;}
+.cotfixblacks-section .cot-rt{padding-right: 60px;}
+.cotfixblacks-section .cot-rl{padding-left: 60px;}
+
+.black-box {
+    width: 20%;
+    /* height: 50px; */
+    padding: 30px 0;
+    background: #222;
+}
+
+.text-box {
+    padding: 0;
+    width: 80%;
+}
+
+.title {
+    font-family: "Hanken Grotesk", serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/* cotfixblacks page */
+
+/* qualitycontrol page */
+
+.qualitycontrol-section{display: flex; align-items: center; height: 100vh; padding-top: 40px;}
+.qualitycontrol-section .quality-box{position: relative; overflow: hidden; margin-top: 25px;}
+.qualitycontrol-section .qc-content-box{background: rgba(255, 255, 255, 0.8); width: 100%; padding: 15px; position: absolute; bottom: 0; font-family: "Hanken Grotesk", serif; font-size: 16px; font-weight: 700; color: #000; letter-spacing: 2px; text-align: center;}
+.qualitycontrol-section p{font-family: "Hanken Grotesk", serif; font-size: 20px; font-weight: 400; color: #000; padding-bottom: 20px; }
+.qualitycontrol-section h2{font-family: "Hanken Grotesk", serif; font-size: 20px; font-weight: 700; color: #000;}
+.qualitycontrol-section ul{padding-left: 25px; padding-bottom: 20px;}
+.qualitycontrol-section ul li{list-style: disc; font-family: "Hanken Grotesk", serif; font-size: 16px; font-weight: 500; color: #000; line-height: 28px;}
+
+/* qualitycontrol page */
+
+/* sustainabilty page */
+
+.sustainabilty-section{display: flex; align-items: center; height: 100vh; padding-top: 30px;}
+.sustainabilty-section h2{position: absolute; left: 0; bottom: 0; margin: 3px; border-radius: 0 0 10px 10px; background: #fff; padding: 10px; font-size: 25px; font-weight: 700; color: #000; line-height: 35px; text-align: center; width: 99%;}
+.sustainabilty-section .col-lg-6{display: flex; align-items: center;}
+.sustainabilty-section .sustainabilty-content{padding: 20px;  border-radius: 10px; }
+.sustainabilty-section p{font-family: "Hanken Grotesk", serif; font-size: 20px; font-weight: 400; color: #000; text-align: left;}
+.sustainabilty-section ul{padding: 10px 0; margin: 15px 0; padding-left: 30px;}
+.sustainabilty-section ul li{list-style: disc; font-family: "Hanken Grotesk", serif; font-size: 16px; font-weight: 500; color: #000; line-height: 25px;}
+.sustainabilty-section .img-box{height: 500px; overflow: hidden;}
+
+/* sustainabilty page */
+
+/* contact page */
+
+.contact-banner{display: flex; align-items: center; height: 100vh; padding-top: 30px;}
+.contact-banner p{font-family: "Hanken Grotesk", serif; font-size: 20px; font-weight: 400; color: #000; text-align: left;}
+.contact-banner .contact-box{border: 5px solid #000; border-radius: 50px; padding: 30px; position: relative;}
+.contact-banner .contact-box::after{content: ''; background: url(../images/contact-page/double-quotestop.svg); width: 40px; height: 40px; position: absolute; left: -10px; top: -10px;}
+.contact-banner .contact-box::before{content: ''; background: url(../images/contact-page/double-quotesbottom.svg); width: 40px; height: 40px; position: absolute; right: -10px; bottom: -10px;}
+.contact-banner ul{padding: 10px 0 0 20px;}
+.contact-banner ul li{list-style: disc; font-family: "Hanken Grotesk", serif; font-size: 16px; font-weight: 500; color: #000;}
+.contact-banner h3{font-family: "Hanken Grotesk", serif; font-size: 20px; font-weight: 700; color: #000; padding: 30px 0 20px;}
+.contact-banner .mail-text{font-family: "Hanken Grotesk", serif; font-size: 20px; font-weight: 700; color: #000; padding: 15px 0 0; display: block;}
+.contact-banner .btn-icon-box{display: flex; align-items: center; gap: 15px; z-index: 99999; animation: slideUp 0.7s ease-out;}
+@keyframes slideUp {
+    0% {
+        bottom: -100px;
+    }
+    100% {
+        bottom: 40px;
+    }
+}
+
+@keyframes heartBreath {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+    }
+    50% {
+        transform: scale(1.2);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
+.contact-banner .icon {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid #000;
+    transition: all 0.5s ease-in-out;
+    animation: heartBreath 2s infinite;
+}
+
+.contact-banner .icon:hover{background: transparent; border: 1px solid #000; transition: all 0.5s ease-in-out;}
+.contact-banner .icon:hover img{ filter: grayscale(100%) brightness(0); transition: all 0.5s ease-in-out;}
+
+.contact-banner .icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.contact-banner h4{font-family: "Hanken Grotesk", serif; font-size: 25px; font-weight: 600; color: #000; padding-bottom: 20px;}
+.contact-banner h5{font-family: "Hanken Grotesk", serif; font-size: 22px; font-weight: 500; color: #000; padding: 20px 0 15px;}
+.contact-banner h6{font-family: "Hanken Grotesk", serif; font-size: 20px; font-weight: 400; color: #000; padding-bottom: 25px;}
+.contact-banner .partn-col{display: flex; align-items: center; padding-left: 40px;}
+
+/* contact page */
