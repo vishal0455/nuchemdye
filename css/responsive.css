@@ -707,6 +707,10 @@
 
     .product-section .col-product{height: auto !important; padding: 120px 0;}
     .col-product a{padding: 15px 120px !important;}
+    .cotfixblacks-section .cot-rt{padding-right: calc(var(--bs-gutter-x)* .5);}
+    .cotfixblacks-section .cot-rl{padding-left: calc(var(--bs-gutter-x)* .5);}
+    .cotfixblacks-section .first-box{height: auto; padding: 180px 0 140px;}
+    .cotfixblacks-section .first-box-extra{padding: 80px 0 30px;}
 
 }
 
