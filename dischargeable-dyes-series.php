@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Customized Dye Solutions - Tailored for Your Textile Needs</title>
+    <title>Dischargeable Dyes - High-Quality Prints & Color Removal</title>
     <!-- meta tag -->
-    <meta name="description" content="We offer customized reactive dye solutions to meet your unique textile processing requirements, ensuring high-quality, efficient, and sustainable results." />
+    <meta name="description" content="Explore our dischargeable dyes, allowing precise color removal for high-quality textile printing while maintaining fabric integrity and color brilliance." />
     <meta property="og:locale" content="en_in" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Customized Dye Solutions - Tailored for Your Textile Needs" />
-    <meta property="og:description" content="We offer customized reactive dye solutions to meet your unique textile processing requirements, ensuring high-quality, efficient, and sustainable results." />
+    <meta property="og:title" content="Dischargeable Dyes - High-Quality Prints & Color Removal" />
+    <meta property="og:description" content="Explore our dischargeable dyes, allowing precise color removal for high-quality textile printing while maintaining fabric integrity and color brilliance." />
     <meta property="og:site_name" content="Nuchem Dye" />
     <meta property="og:image" content="images/favicon.png" />
     <meta property="og:image:width" content="512" />
@@ -30,44 +30,41 @@
     <main>
 
         <?php include 'header.php'; ?>
-
         <section class="product-detail-banner">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 pr">
                         <div class="text-box">
-                            <h2 data-aos="flip-down">CUSTOMISED <br> SOLUTIONS FOR <br>DYEING </h2>
-
+                            <h2 data-aos="flip-down">DISCHARGEABLE <br> DYES SERIES </h2>
                             <div>
-                                <img src="images/customised-solution-page/customised-solutions-for-dyeing.jpg" alt="" class="cellulosic-img"
+                                <img src="images/dischargeabledyes-page/dischargeable-dyes-series.jpg" alt="" class="cellulosic-img"
                                     data-aos="zoom-in">
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 pl" style="display: flex; align-items: center;" data-aos="zoom-in">
                         <div>
-                            <p>We specialize in providing customised and tailor-made
-                                solutions for textile processing.<br>
-                                Our expertise includes:</p>
+                            <p>The Dischargeable Dyes Series offers specialized dyes
+                                that enable precise removal of color from fabric to
+                                create unique patterns. These dyes ensure vibrant
+                                results while maintaining the fabric’s quality and
+                                softness.</p>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <a href="dischargeable-dyes-series-cotfix-yellow.php">COTFIX YELLOWS</a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a href="dischargeable-dyes-series-cotfix-red.php">COTFIX REDS</a>
+                                </div>
 
-                            <ul>
-                                <li>Shade Development: Ensuring precision and
-                                    consistency in achieving the desired shades.</li>
-
-                                <li>Technical Services for Right First Time Dyeing:
-                                    Streamlining processes to minimize errors and
-                                    maximize efficiency in dyeing operations.</li>
-                            </ul>
-
-
-                            <p>Our commitment is to deliver innovation and quality
-                                for your textile needs.</p>
-
+                                <div class="col-sm-12" style="display: flex; justify-content: center;">
+                                    <a href="dischargeable-dyes-series-cotfix-blacks.php" style="width: 306px;">COTFIX BLACKS</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DISCHARGEABLE DYEING SERIES - Nuchem Dye</title>
+    <title>COTFIX Printing Series: Reactive Dyes for Cellulosic Textiles</title>
     <!-- meta tag -->
-    <meta name="description" content="Welcome to Nuchem Dye" />
+    <meta name="description" content="Explore NuChem's COTFIX Printing Series, offering reactive dyes tailored for printing on cellulosic fibers, ensuring vibrant, durable, and high-quality textile designs." />
     <meta property="og:locale" content="en_in" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Home - Nuchem Dye" />
-    <meta property="og:description" content="Welcome to Nuchem Dye" />
+    <meta property="og:title" content="COTFIX Printing Series: Reactive Dyes for Cellulosic Textiles" />
+    <meta property="og:description" content="Explore NuChem's COTFIX Printing Series, offering reactive dyes tailored for printing on cellulosic fibers, ensuring vibrant, durable, and high-quality textile designs." />
     <meta property="og:site_name" content="Nuchem Dye" />
     <meta property="og:image" content="images/favicon.png" />
     <meta property="og:image:width" content="512" />
@@ -27,6 +27,24 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <style>
         /* .top-header{position: inherit;} */
+        .cotvsdye {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .heading {
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .headingh2 {
+
+            font-size: 30px;
+        }
+
+        .top-header{background: rgba(235,236,238,0.8);}
     </style>
 </head>
 
@@ -34,82 +52,98 @@
     <main>
 
         <?php include 'header.php'; ?>
+
         <section class="cotfixblacks-section">
-            <div class="first-box">
+            <div class="first-box first-box-extra" style="background: url(images/cellulosic-printing-page/cotfix-printing-series.jpg) no-repeat top;">
                 <!-- <img src="images/cotfixblacks-page/cotfixblacks.jpg" alt="" class="w-100 cotfixblacks-img"> -->
-                <div class="container">
-                    <div class="row" style="align-items: center;">
-                        <div class="col-lg-6">
-                            <h2>DISCHARGEABLE DYEING <br>SERIES</h2>
-                        </div>
-                        <div class="col-lg-6 blacks-rght">
-                            <h3>COTFIX <br>BLACKS</h3>
-                        </div>
-                    </div>
+                <div class="container heading">
+                    <h2 class="headingh2">COTFIX PRINTING SERIES</h2>
                 </div>
+            </div>
             </div>
             <div class="second-box">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-4 cot-rt">
-                            <!-- <a class="popup-btn" data-bs-toggle="modal" href="#exampleModalToggle">COTFIX BLACK WNN</a> -->
+                        <div class="col-lg-4">
                             <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
-                                <div class="black-box" style="background: #322f2f;"></div>
+                                <div class="black-box" style="background: #ffeb5b;"></div>
                                 <div class="text-box">
-                                    <p class="title">COTFIX BLUE BB</p>
-                                    <p class="subtitle">(1% MAX))</p>
+                                    <p class="title">COTFIX YELLOW P6G</p>
+
                                 </div>
                             </div>
                             <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
-                                <div class="black-box" style="background: #000;"></div>
+                                <div class="black-box" style="background: #ffab5f;"></div>
                                 <div class="text-box">
-                                    <p class="title">COTFIX BLACK B</p>
-                                    <p class="subtitle">133%</p>
+                                    <p class="title">COTFIX GOLDEN</p>
+                                    <p class="subtitle">YELLOW P3R</p>
                                 </div>
                             </div>
                             <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
-                                <div class="black-box" style="background: #000;"></div>
+                                <div class="black-box" style="background: #ff8200 ;"></div>
                                 <div class="text-box">
-                                    <p class="title">COTFIX BLACK B</p>
-                                    <p class="subtitle">H/C</p>
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="col-lg-4 cot-rl">
-                            <!-- <a class="popup-btn" data-bs-toggle="modal" href="#exampleModalToggle">COTFIX BLACK WNN</a> -->
-                            <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
-                                <div class="black-box" style="background: #2e2c2c;"></div>
-                                <div class="text-box">
-                                    <p class="title">COTFIX BLACK</p>
-                                    <p class="subtitle">WNN</p>
+                                    <p class="title">COTFIX </p>
+                                    <p class="subtitle">ORANGE P2R</p>
                                 </div>
                             </div>
                             <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
-                                <div class="black-box" style="background: #2b2a2a;"></div>
+                                <div class="black-box" style="background: #eb0046;"></div>
                                 <div class="text-box">
-                                    <p class="title">COTFIX BLACK</p>
-                                    <p class="subtitle">WNN H/C</p>
-                                </div>
-                            </div>
-                            <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
-                                <div class="black-box" style="background: #000;"></div>
-                                <div class="text-box">
-                                    <p class="title">COTFIX BLACK</p>
-                                    <p class="subtitle">2N</p>
+                                    <p class="title">COTFIX RED PB</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 cot-rl">
-                            <!-- <a class="popup-btn" data-bs-toggle="modal" href="#exampleModalToggle">COTFIX BLACK WNN</a> -->
+                        <div class="col-lg-4">
                             <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
-                                <div class="black-box" style="background: #2e2c2c;"></div>
+                                <div class="black-box" style="background: #de0f3f;"></div>
                                 <div class="text-box">
-                                    <p class="title">COTFIX BLACK</p>
-                                    <p class="subtitle">2R</p>
+                                    <p class="title">COTFIX RED P2B</p>
                                 </div>
                             </div>
-                           
+                            <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
+                                <div class="black-box" style="background:  #e60035;"></div>
+                                <div class="text-box">
+                                    <p class="title">COTFIX RED P4BN</p>
+
+                                </div>
+                            </div>
+                            <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
+                                <div class="black-box" style="background: #02b4bf ;"></div>
+                                <div class="text-box">
+                                    <p class="title">COTFIX </p>
+                                    <p class="subtitle">T. BLUE H2GP </p>
+                                </div>
+                            </div>
+                            <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
+                                <div class="black-box" style="background:  #5273e6;"></div>
+                                <div class="text-box">
+                                    <p class="title">COTFIX BLUE P3R</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <!-- <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
+                                <div class="black-box" style="background: #304c6d;"></div>
+                                <div class="text-box">
+                                    <p class="title">COTFIX NAVY P2R </p>
+
+                                </div>
+                            </div> -->
+                            <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
+                                <div class="black-box" style="background:  #304c6d;"></div>
+                                <div class="text-box">
+                                    <p class="title">COTFIX NAVY P2R</p>
+
+                                </div>
+                            </div>
+                            <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
+                                <div class="black-box" style="background: #26374b;"></div>
+                                <div class="text-box">
+                                    <p class="title">COTFIX BLACK PNR</p>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
