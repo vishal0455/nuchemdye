@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Nuchem Dye - vicky</title>
+    <title>Sustainable Reactive Dyes</title>
     <!-- meta tag -->
-    <meta name="description" content="Welcome to Nuchem Dye" />
+    <meta name="description" content="Innovating reactive dyes for a sustainable future with eco-friendly, high-performance textile solutions." />
     <meta property="og:locale" content="en_in" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Home - Nuchem Dye" />
-    <meta property="og:description" content="Welcome to Nuchem Dye" />
+    <meta property="og:title" content="Sustainable Reactive Dyes" />
+    <meta property="og:description" content="Innovating reactive dyes for a sustainable future with eco-friendly, high-performance textile solutions." />
     <meta property="og:site_name" content="Nuchem Dye" />
     <meta property="og:image" content="images/favicon.png" />
     <meta property="og:image:width" content="512" />
@@ -44,10 +44,11 @@
                     <a class="icon" href="#">
                         <img src="images/facebook-svgrepo-com.svg" alt="Facebook" style="width: 20px;">
                     </a>
-                    <a href="#" class="contact-button">CONTACT US</a>
+                    <a href="contact.php" class="contact-button">CONTACT US</a>
                 </div>
             </div>
         </div>
+     
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

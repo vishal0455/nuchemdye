@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CELLULOSiC DYEING SERIES - Nuchem Dye</title>
+    <title>Quality Control | Ensuring Excellence in Reactive Dyes</title>
     <!-- meta tag -->
-    <meta name="description" content="Welcome to Nuchem Dye" />
+    <meta name="description" content="Learn about our stringent quality control processes that ensure consistent, high-performance, and eco-friendly reactive dyes for textile applications." />
     <meta property="og:locale" content="en_in" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Home - Nuchem Dye" />
-    <meta property="og:description" content="Welcome to Nuchem Dye" />
+    <meta property="og:title" content="Quality Control | Ensuring Excellence in Reactive Dyes" />
+    <meta property="og:description" content="Learn about our stringent quality control processes that ensure consistent, high-performance, and eco-friendly reactive dyes for textile applications." />
     <meta property="og:site_name" content="Nuchem Dye" />
     <meta property="og:image" content="images/favicon.png" />
     <meta property="og:image:width" content="512" />
@@ -29,62 +29,9 @@
 <body>
     <main>
 
-        <header class="top-header" data-aos="fade-down">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.html"><img src="images/NUCHEM-LOGO.png" alt=""
-                            class="main-logo"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    About Us
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="about.html">Overview </a></li>
-                                    <li><a class="dropdown-item" href="management.html">Management</a></li>
-                                    <li><a class="dropdown-item" href="manufacturig.html">Manufactur</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Products
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="cellulosicdying.html">Cellulosic Dye Series</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="cellulosicprinting.html">Cellulosic Printing
-                                            Series</a></li>
-                                    <li><a class="dropdown-item" href="dischargeabledyes.html">Dischageble Dyes
-                                            Series</a></li>
-                                    <li><a class="dropdown-item" href="customisedsolution.html">CUSTOMISED SOLUTIONS FOR
-                                            DYEING</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="sustainabilty.html">SUSTAINABILTY</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="qualitycontrol.html">QUALITY CONTROL</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
+    
+    <?php include 'header.php'; ?>
+
 
         <section class="qualitycontrol-section">
             <div class="container">
@@ -113,7 +60,7 @@
                             </ul>
                             <p>Every dye manufactured undergoes a rigorous
                                 Three-Point Quality Check System before
-                                delivery to our customers. Additionally, we
+                                delivering to our customers. Additionally, we
                                 maintain a comprehensive database for all
                                 production lots, ensuring traceability and
                                 consistent delivery of superior quality products</p>
