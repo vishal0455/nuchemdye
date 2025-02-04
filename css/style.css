@@ -5,13 +5,15 @@
 
 /* fontfamily-style */
 
-body{margin: 0; padding: 0; background: url(../images/home-page/Main-Banner.jpg) no-repeat center; background-size: cover; height: 100vh;}
+body{margin: 0; padding: 0;}
 h1, h2, h3, h4, h5, h6, p{margin: 0; padding: 0;}
 a{text-decoration: none;}
 ul{padding: 0; margin: 0;}
 li{list-style: none;}
 
 /* home-page css */
+
+.main-banner, .about-banner, .management-section, .manufacturig-section, .certification-section, .product-section, .product-detail-banner, .cotfixblacks-section, .contact-banner, .qualitycontrol-section, .sustainabilty-section{background: url(../images/home-page/Main-Banner.jpg) no-repeat center; background-size: cover;}
 
 .top-header{padding: 10px 0; position: absolute; width: 100%; z-index: 9;}
 .top-header .main-logo{width: 200px;}
@@ -85,6 +87,7 @@ li{list-style: none;}
     letter-spacing: 1.2px;
     margin-left: 25px;
     transition: all 0.5s ease-in-out;
+    border-radius: 10px;
 }
 
 .main-banner .contact-button:hover {
@@ -100,11 +103,11 @@ li{list-style: none;}
 .product-detail-banner{display: flex; align-items: center; height: 100vh;}
 /* .product-detail-banner .pr{padding-right: 30px;}
 .product-detail-banner .pl{padding-left: 30px;} */
-.product-detail-banner .text-box h2{font-family: "Hanken Grotesk", serif; font-size: 15px; font-weight: 500; color: #000; letter-spacing: 2px; text-align: center; border: 1px solid #000; padding: 15px 0; width: 350px; margin: 0 auto;}
+.product-detail-banner .text-box h2{font-family: "Hanken Grotesk", serif; font-size: 15px; font-weight: 500; color: #000; letter-spacing: 2px; text-align: center; border: 1px solid #000; padding: 15px 0; width: 350px; margin: 0 auto; border-radius: 10px;}
 .product-detail-banner p{font-family: "Hanken Grotesk", serif; font-size: 18px; font-weight: 400; color: #000; padding-bottom: 30px; line-height: 30px;}
-.product-detail-banner a{font-family: "Hanken Grotesk", serif; font-size: 16px; font-weight: 500; color: #000; padding: 10px 0; display: block; width: 100%; text-align: center; box-shadow: 0px 14px 140px 0px #94A3B833; background: #fff; margin-bottom: 25px; border: 1px solid #ccc; transition: all 0.5s ease-in-out;}
+.product-detail-banner a{font-family: "Hanken Grotesk", serif; font-size: 16px; font-weight: 500; color: #000; padding: 10px 0; display: block; width: 100%; text-align: center; box-shadow: 0px 14px 140px 0px #94A3B833; background: #fff; margin-bottom: 25px; border: 1px solid #ccc; transition: all 0.5s ease-in-out; border-radius: 10px;}
 .product-detail-banner a:hover{background: #000; color: #fff; transition: all 0.5s ease-in-out;}
-.product-detail-banner .cellulosic-img{width: 350px;  margin: 25px auto 0; display: block;}
+.product-detail-banner .cellulosic-img{width: 350px;  margin: 25px auto 0; display: block; border-radius: 10px;}
 
 .product-detail-banner ul{padding: 0 0 35px 30px;}
 .product-detail-banner ul li{list-style: disc;}
@@ -118,7 +121,7 @@ li{list-style: none;}
 .about-banner h2{font-family: "Hanken Grotesk", serif; font-size: 35px; font-weight: 700; color: #000; letter-spacing: 2px;}
 .about-banner p{font-family: "Hanken Grotesk", serif; font-size: 16px; font-weight: 400; color: #000; padding: 10px 0;}
 .about-banner h3{font-family: "Hanken Grotesk", serif; font-size: 16px; font-weight: 500; color: #000; padding-top: 15px;}
-.about-banner .about-img-box{height: 220px; width: 100%; overflow: hidden; position: relative;}
+.about-banner .about-img-box{height: 220px; width: 100%; overflow: hidden; position: relative; border-radius: 10px;}
 .about-banner h4{font-family: "Hanken Grotesk", serif; font-size: 20px; font-weight: 500; color: #000; padding: 30px 0 0; text-align: center;}
 .about-banner .about-img-box img {
     width: 100%;
@@ -213,7 +216,7 @@ li{list-style: none;}
 .manufacturig-section ul li{font-family: "Hanken Grotesk", serif; font-size: 16px; font-weight: 600; color: #000; text-align: center; }
 .manufacturig-section h3{font-family: "Hanken Grotesk", serif; font-size: 18px; font-weight: 400; color: #000; letter-spacing: 2px; text-align: center;}
 .manufacturig-section h2{font-family: "Hanken Grotesk", serif; font-size: 18px; font-weight: 400; color: #000; letter-spacing: 2px; text-align: center; padding-bottom: 15px;}
-.manufacturig-section .manu-img{width: 100%; height: 150px; overflow: hidden; margin-bottom: 10px;}
+.manufacturig-section .manu-img{width: 100%; height: 150px; overflow: hidden; margin-bottom: 10px; border-radius: 10px;}
 .manufacturig-section img{margin-top: -50px;}
 .manufacturig-section .manu-content{display: flex; align-items: center;}
 
@@ -223,17 +226,19 @@ li{list-style: none;}
 
 .cotfixblacks-section{height: 100vh;}
 .cotfixblacks-section .cotfixblacks-img{position: absolute; top: 0; left: 0; }
-.cotfixblacks-section .first-box{height: 50%; display: flex; align-items: center; overflow: hidden; background: url(../images/cotfixblacks-page/cotfixblacks.jpg) no-repeat top;}
-.cotfixblacks-section .first-box h2{position: relative; z-index: 1; font-family: "Hanken Grotesk", serif; font-size: 18px; font-weight: 500; color: #000; letter-spacing: 2px; text-align: center; display: inline-block; background-color: rgba(255, 255, 255, 0.7); padding: 5px 30px;}
-.cotfixblacks-section .first-box h3{position: relative; z-index: 1; font-family: "Hanken Grotesk", serif; font-size: 30px; font-weight: 500; color: #000; letter-spacing: 2px; text-align: center; display: inline-block; margin-left: auto; background-color: rgba(255, 255, 255, 0.7); padding: 20px 35px;}
+.cotfixblacks-section .first-box{height: 50%; display: flex; align-items: center; overflow: hidden; background: url(../images/cellulosicdyeing-page/cotfix-blacks.jpg) no-repeat top;}
+.cotfixblacks-section .first-box-extra{height: 42%;}
+.cotfixblacks-section .first-box h2{position: relative; z-index: 1; font-family: "Hanken Grotesk", serif; font-size: 17px; font-weight: 500; color: #000; letter-spacing: 2px; text-align: center; display: inline-block; background-color: rgba(255, 255, 255, 0.7); padding: 10px 30px; border-radius: 10px;}
+.cotfixblacks-section .first-box h3{position: relative; z-index: 1; font-family: "Hanken Grotesk", serif; font-size: 26px; font-weight: 500; color: #000; letter-spacing: 2px; text-align: center; display: inline-block; margin-left: auto; background-color: rgba(255, 255, 255, 0.7); padding: 20px 35px; border-radius: 10px;}
 .cotfixblacks-section .blacks-rght{display: flex; justify-content: right;}
 /* .cotfixblacks-section .popup-btn{font-family: "Hanken Grotesk", serif; font-size: 28px; font-weight: 600; color: #000; letter-spacing: 2px; text-align: center; border:1px solid #000;} */
 .box {
     display: flex;
     align-items: center;
     border: 1px solid #333;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .cotfixblacks-section .second-box{margin-top: 30px;}
@@ -245,6 +250,7 @@ li{list-style: none;}
     /* height: 50px; */
     padding: 30px 0;
     background: #222;
+    border-radius: 10px;
 }
 
 .text-box {
@@ -272,7 +278,7 @@ li{list-style: none;}
 /* qualitycontrol page */
 
 .qualitycontrol-section{display: flex; align-items: center; height: 100vh; padding-top: 40px;}
-.qualitycontrol-section .quality-box{position: relative; overflow: hidden; margin-top: 25px;}
+.qualitycontrol-section .quality-box{position: relative; overflow: hidden; margin-top: 25px; border-radius: 10px;}
 .qualitycontrol-section .qc-content-box{background: rgba(255, 255, 255, 0.8); width: 100%; padding: 15px; position: absolute; bottom: 0; font-family: "Hanken Grotesk", serif; font-size: 16px; font-weight: 700; color: #000; letter-spacing: 2px; text-align: center;}
 .qualitycontrol-section p{font-family: "Hanken Grotesk", serif; font-size: 20px; font-weight: 400; color: #000; padding-bottom: 20px; }
 .qualitycontrol-section h2{font-family: "Hanken Grotesk", serif; font-size: 20px; font-weight: 700; color: #000;}

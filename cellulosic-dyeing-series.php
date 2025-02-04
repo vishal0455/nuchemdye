@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DISCHARGEABLE DYEING SERIES - Nuchem Dye</title>
+    <title>Cellulosic Dyeing Series | High-Performance Textile Dyes</title>
     <!-- meta tag -->
-    <meta name="description" content="Welcome to Nuchem Dye" />
+    <meta name="description" content="Explore our specialized dyes for cellulosic fibers, delivering vibrant, long-lasting colors while ensuring eco-friendly and high-performance textile dyeing solutions." />
     <meta property="og:locale" content="en_in" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Home - Nuchem Dye" />
-    <meta property="og:description" content="Welcome to Nuchem Dye" />
+    <meta property="og:title" content="Cellulosic Dyeing Series | High-Performance Textile Dyes" />
+    <meta property="og:description" content="Explore our specialized dyes for cellulosic fibers, delivering vibrant, long-lasting colors while ensuring eco-friendly and high-performance textile dyeing solutions." />
     <meta property="og:site_name" content="Nuchem Dye" />
     <meta property="og:image" content="images/favicon.png" />
     <meta property="og:image:width" content="512" />
@@ -29,13 +29,14 @@
 <body>
     <main>
 
-    <?php include 'header.php'; ?>
+        <?php include 'header.php'; ?>
+
         <section class="product-detail-banner">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 pr">
                         <div class="text-box">
-                            <h2 data-aos="flip-down">DISCHARGEABLE <br> DYES SERIES </h2>
+                            <h2 data-aos="flip-down">CELLULOSIC DYEING SERIES</h2>
                             <div>
                                 <img src="images/products-page/CELLULOSiC-DYEING.jpg" alt="" class="cellulosic-img"
                                     data-aos="zoom-in">
@@ -44,21 +45,27 @@
                     </div>
                     <div class="col-sm-6 pl" style="display: flex; align-items: center;" data-aos="zoom-in">
                         <div>
-                            <p>The Dischargeable Dyes Series offers specialized dyes
-                                that enable precise removal of color from fabric to
-                                create unique patterns. These dyes ensure vibrant
-                                results while maintaining the fabric’s quality and
-                                softness.</p>
+                            <p>The Cellulosic Dyeing Series focuses on sustainable and
+                                efficient coloring of cellulose-based fibers like cotton, using
+                                eco-friendly dyes and processes for vibrant and durable
+                                results. It emphasizes minimal environmental impact while
+                                maintaining high-quality standards in textile dyeing.</p>
                             <div class="row">
                                 <div class="col-sm-6">
-                                    <a href="cotfixyellow.html">COTFIX YELLOWS</a>
+                                    <a href="cellulosic-dye-cotfix-blacks.php">COTFIX BLACKS</a>
                                 </div>
                                 <div class="col-sm-6">
-                                    <a href="cotfixred.html">COTFIX REDS</a>
+                                    <a href="cellulosic-dye-cotfix-rgb-series.php">COTFIX RGB SERIES</a>
                                 </div>
-
+                                <div class="col-sm-6">
+                                    <a href="cellulosic-dye-cotfix-vs-series.php">COTFIX VS SERIES</a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a href="cellulosic-dye-cotfix-rr-series.php">COTFIX RR SERIES</a>
+                                </div>
                                 <div class="col-sm-12" style="display: flex; justify-content: center;">
-                                    <a href="dischargeble-dye-cotfix-blacks.php" style="width: 306px;">COTFIX BLACKS</a>
+                                    <a href="cellulosic-dye-cotfix-me-bifunctional-series.php" style="width: 306px;" class="me-bifunction">COTFIX ME <br>
+                                        BIFUNCTIONAL SERIES</a>
                                 </div>
                             </div>
                         </div>

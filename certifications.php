@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CELLULOSiC DYEING SERIES - Nuchem Dye</title>
+    <title>Certified Sustainable Reactive Dyes | GOTS & OEKO-TEX</title>
     <!-- meta tag -->
-    <meta name="description" content="Welcome to Nuchem Dye" />
+    <meta name="description" content="We are proud to hold GOTS, OEKO-TEX, and ZDHC Level 3 certifications, ensuring sustainable, eco-friendly, and safe reactive dye solutions." />
     <meta property="og:locale" content="en_in" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Home - Nuchem Dye" />
-    <meta property="og:description" content="Welcome to Nuchem Dye" />
+    <meta property="og:title" content="Certified Sustainable Reactive Dyes | GOTS & OEKO-TEX" />
+    <meta property="og:description" content="We are proud to hold GOTS, OEKO-TEX, and ZDHC Level 3 certifications, ensuring sustainable, eco-friendly, and safe reactive dye solutions." />
     <meta property="og:site_name" content="Nuchem Dye" />
     <meta property="og:image" content="images/favicon.png" />
     <meta property="og:image:width" content="512" />
@@ -26,25 +26,36 @@
     <link rel="stylesheet" href="css/responsive.css">
 
     <style>
-        .certification-section,
-        .heading {
-            /* margin: 0 auto; */
+        .certification-section {
+            display: flex;
+            align-items: center;
             text-align: center;
-            /* margin-top: 50px; */
+            height: 100vh;
+
         }
 
-        .head {
-            margin: 10px;
+        .certification-section h2 {
+            font-size: 45px;
+            font-weight: 500;
+            color: #000;
+            padding-bottom: 50px;
+        }
+
+        .certification-section h3 {
+            font-size: 55px;
+            font-weight: 500;
+            color: #000;
+            /* padding-bottom: 30px; */
         }
 
         .footertext {
-            margin-left: 200px;
             letter-spacing: 1px;
-            align-items: center;
+            text-align: left;
             border: 1px solid black;
             margin-top: 60px;
-            width: 750px;
-            font-size: 18px;
+            font-size: 22px;
+            padding: 15px;
+            border-radius: 10px;
         }
 
         .symbol h3::after {
@@ -55,100 +66,97 @@
             position: absolute;
             /* top: 50%; */
         }
+
+        .certification-section h5 {
+            font-size: 35px;
+            color: #737873;
+        }
+
+        @media (min-width: 1700px) {
+
+            .certification-section h2 {
+                font-size: 65px;
+                font-weight: 500;
+                color: #000;
+                padding-bottom: 70px;
+            }
+
+            .footertext {
+                letter-spacing: 1px;
+                text-align: left;
+                border: 1px solid black;
+                margin-top: 70px;
+                font-size: 30px;
+                padding: 15px;
+            }
+
+        }
+
+        @media (max-width: 767px) {
+
+            .certification-section {
+                height: auto;
+                display: inherit;
+                padding: 80px 0 60px;
+            }
+
+            .certification-section h2 {
+                font-size: 30px !important;
+                padding-bottom: 30px;
+            }
+
+            .certification-section h3 {
+                font-size: 35px;
+            }
+
+            .global-img-certi {
+                margin: 20px 0;
+            }
+
+            .certification-section h5 {
+                font-size: 28px;
+            }
+
+            .footertext {
+                margin-top: 40px;
+                font-size: 17px;
+            }
+
+        }
     </style>
 </head>
 
 <body>
     <main>
 
-        <header class="top-header" data-aos="fade-down">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.html"><img src="images/NUCHEM-LOGO.png" alt=""
-                            class="main-logo"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    About Us
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="about.html">Overview </a></li>
-                                    <li><a class="dropdown-item" href="management.html">Management</a></li>
-                                    <li><a class="dropdown-item" href="manufacturig.html">Manufactur</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Products
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="cellulosicdying.html">Cellulosic Dye Series</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="cellulosicprinting.html">Cellulosic Printing
-                                            Series</a></li>
-                                    <li><a class="dropdown-item" href="dischargeabledyes.html">Dischageble Dyes
-                                            Series</a></li>
-                                    <li><a class="dropdown-item" href="customisedsolution.html">CUSTOMISED SOLUTIONS FOR
-                                            DYEING</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="sustainabilty.html">SUSTAINABILTY</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="qualitycontrol.html">QUALITY CONTROL</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
+        <?php include 'header.php'; ?>
 
-        <section class="certification-section">
+        <section class="certification-section" style="overflow: hidden;">
             <div class="container">
-                <div class="heading ">
-                    <h1 class="head" style="text-align: center;">WE'RE PROUD OF OUR<br> REACTIVE DYES</h1>
+                <div class="heading">
+                    <h2 class="head" style="text-align: center;" data-aos="zoom-in">WE'RE PROUD OF OUR<br> REACTIVE DYES</h2>
                 </div>
-                <div class="row text-center ">
-                    <div class="col-sm-4" style="margin: 0 auto;">
-                        <h2>ZDHC</h2>
+                <div class="row">
+                    <div class="col-sm-4" style="margin: 0 auto;" data-aos="fade-right">
+                        <h3>Ø ZDHC</h3>
                         <P>Zero Discharge of<br>
                             Harzardous Chemicals</P>
                     </div>
-                    <div class="col-sm-4">
-                        <img src="/images/Global_Organic_Textile_Standard_logo.svg" width="150px" height="150px"
-                            alt="logo">
+                    <div class="col-sm-4" data-aos="flip-down">
+                        <img src="images/certifications-page/Global-Organic.svg" width="150px" height="150px"
+                            alt="logo" class="global-img-certi">
                     </div>
-                    <div class="col-sm-4 symbol">
-                        <h5>OEKO-TEX</h5>
+                    <div class="col-sm-4 symbol" data-aos="fade-left">
+                        <h5>OEKO-TEX<sup>®</sup></h5>
                         <P>INSPIRING CONFIDENCE</P>
-                        <h3>ECO PASSPORT</h3>
+                        <h4>ECO PASSPORT</h4>
                         <h6>21.0.64039 HOHENSTEIN HTTI</h6>
                         <P>Tested and verified chemical.<br>
                             www.oeko-tex.com/ecopassport</P>
 
                     </div>
-
-                    <p class="footertext">We are a star export house and proud to hold GOTS,OEKO-TEX and ZDHC Level
-                        3<br>
-                        certifications, ensuring the highest standards in sustainability,safety,and eco-<br>
-                        friendly pratices.</p>
-
                 </div>
+                <p class="footertext" data-aos="zoom-in">We are a star export house and proud to hold GOTS,OEKO-TEX and ZDHC Level 3 certifications, ensuring the highest standards in sustainability,safety,and eco-friendly pratices.</p>
             </div>
         </section>
     </main>

@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CELLULOSiC DYEING SERIES - Nuchem Dye</title>
+    <title>COTFIX RGB Series: Vibrant Reactive Dyes for Cellulosic Fibers</title>
     <!-- meta tag -->
-    <meta name="description" content="Welcome to Nuchem Dye" />
+    <meta name="description" content="Discover NuChem's COTFIX RGB Series, offering vibrant red, green, and blue reactive dyes for cellulosic textiles, ensuring superior colorfastness and durability." />
     <meta property="og:locale" content="en_in" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Home - Nuchem Dye" />
-    <meta property="og:description" content="Welcome to Nuchem Dye" />
+    <meta property="og:title" content="COTFIX RGB Series: Vibrant Reactive Dyes for Cellulosic Fibers" />
+    <meta property="og:description" content="Discover NuChem's COTFIX RGB Series, offering vibrant red, green, and blue reactive dyes for cellulosic textiles, ensuring superior colorfastness and durability." />
     <meta property="og:site_name" content="Nuchem Dye" />
     <meta property="og:image" content="images/favicon.png" />
     <meta property="og:image:width" content="512" />
@@ -27,177 +27,66 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <style>
         /* .top-header{position: inherit;} */
-        .cotvsdye {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-        }
-
-        .heading {
-            display: flex;
-            justify-content: center;
-            font-size: 20px;
-        }
-
-        .headingh2 {
-
-            font-size: 30px;
-        }
+        .top-header{background: rgba(235,236,238,0.8);}
     </style>
 </head>
 
 <body>
     <main>
 
-        <header class="top-header" data-aos="fade-down">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.html"><img src="images/NUCHEM-LOGO.png" alt=""
-                            class="main-logo"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    About Us
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="about.html">Overview </a></li>
-                                    <li><a class="dropdown-item" href="management.html">Management</a></li>
-                                    <li><a class="dropdown-item" href="manufacturig.html">Manufactur</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Products
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="cellulosicdying.html">Cellulosic Dye Series</a>
-                                    </li>
-                                    <li><a class="dropdown-item" href="cellulosicprinting.html">Cellulosic Printing
-                                            Series</a></li>
-                                    <li><a class="dropdown-item" href="dischargeabledyes.html">Dischageble Dyes
-                                            Series</a></li>
-                                    <li><a class="dropdown-item" href="customisedsolution.html">CUSTOMISED SOLUTIONS FOR
-                                            DYEING</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="sustainabilty.html">SUSTAINABILTY</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="qualitycontrol.html">QUALITY CONTROL</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
+        <?php include 'header.php'; ?>
+
         <section class="cotfixblacks-section">
-            <div class="first-box">
+            <div class="first-box" style="background: url(images/cellulosicdyeing-page/cotfix-rgb-dyes.jpg) no-repeat;">
                 <!-- <img src="images/cotfixblacks-page/cotfixblacks.jpg" alt="" class="w-100 cotfixblacks-img"> -->
-                <div class="container heading">
-                    <h2 class="headingh2">COTFIX PRINTING SERIES</h2>
+                <div class="container">
+                    <div class="row" style="align-items: center;">
+                        <div class="col-lg-6">
+                            <h2>CELLULOSIC DYEING <br>SERIES</h2>
+                        </div>
+                        <div class="col-lg-6 blacks-rght">
+                            <h3>COTFIX <br>RGB DYES</h3>
+                        </div>
+                    </div>
                 </div>
-            </div>
             </div>
             <div class="second-box">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 cot-rt cotvsdye">
+                        <div class="col-lg-6 cot-rt">
                             <!-- <a class="popup-btn" data-bs-toggle="modal" href="#exampleModalToggle">COTFIX BLACK WNN</a> -->
                             <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
-                                <div class="black-box" style="background: #ffeb5b;"></div>
+                                <div class="black-box" style="background: #ed991a;"></div>
                                 <div class="text-box">
-                                    <p class="title">COTFIX YELLOW P6G</p>
-
-                                </div>
-                            </div>
-                            <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
-                                <div class="black-box" style="background: #ffab5f;"></div>
-                                <div class="text-box">
-                                    <p class="title">COTFIX GOLDEN</p>
-                                    <p class="subtitle">YELLOW P3R</p>
-                                </div>
-                            </div>
-                            <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
-                                <div class="black-box" style="background: #ff8200 ;"></div>
-                                <div class="text-box">
-                                    <p class="title">COTFIX </p>
-                                    <p class="subtitle">ORANGE P2R</p>
-                                </div>
-                            </div>
-                            <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
-                                <div class="black-box" style="background: #eb0046;"></div>
-                                <div class="text-box">
-                                    <p class="title">COTFIX RED PB</p>
-                                </div>
-                            </div>
-                            <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
-                                <div class="black-box" style="background: #de0f3f;"></div>
-                                <div class="text-box">
-                                    <p class="title">COTFIX RED P2B</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-lg-6 cot-rl ">
-                            <!-- <a class="popup-btn" data-bs-toggle="modal" href="#exampleModalToggle">COTFIX BLACK WNN</a> -->
-                            <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
-                                <div class="black-box" style="background:  #e60035;"></div>
-                                <div class="text-box">
-                                    <p class="title">COTFIX RED P4BN</p>
-
-                                </div>
-                            </div>
-                            <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
-                                <div class="black-box" style="background: #02b4bf ;"></div>
-                                <div class="text-box">
-                                    <p class="title">COTFIX </p>
-                                    <p class="subtitle">T. BLUE H2GP </p>
-                                </div>
-                            </div>
-                            <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
-                                <div class="black-box" style="background:  #5273e6;"></div>
-                                <div class="text-box">
-                                    <p class="title">COTFIX BLUE P3R</p>
-
+                                    <p class="title">COTFIX YELLOW</p>
+                                    <p class="subtitle">RGB</p>
                                 </div>
                             </div>
                             <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
                                 <div class="black-box" style="background: #304c6d;"></div>
                                 <div class="text-box">
-                                    <p class="title">COTFIX NAVY P2R </p>
+                                    <p class="title">COTFIX BLUE RGB</p>
 
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6 cot-rl">
+                            <!-- <a class="popup-btn" data-bs-toggle="modal" href="#exampleModalToggle">COTFIX BLACK WNN</a> -->
+                            <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
+                                <div class="black-box" style="background: #e60035;"></div>
+                                <div class="text-box">
+                                    <p class="title">COTFIX RED RGB</p>
                                 </div>
                             </div>
                             <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
-                                <div class="black-box" style="background:  #304c6d;"></div>
+                                <div class="black-box" style="background: #060644;"></div>
                                 <div class="text-box">
-                                    <p class="title">COTFIX NAVY P2R</p>
-
+                                    <p class="title">COTFIX NAVY</p>
+                                    <p class="subtitle">BLUE RBG</p>
                                 </div>
                             </div>
-                            <div class="box" data-bs-toggle="modal" href="#exampleModalToggle">
-                                <div class="black-box" style="background: #26374b;"></div>
-                                <div class="text-box">
-                                    <p class="title">COTFIX BLACK PNR</p>
 
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
